@@ -1,0 +1,49 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #74d4c4;
+  font-family: "Roboto";
+}
+.container {
+  width: 550px;
+  height: 400px;
+  background-color: #fff;
+  margin: 110px auto;
+  text-align: center;
+  border-radius: 5px;
+  padding: 40px 50px;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+    rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+}
+input {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 15px;
+  background-color: #f2f2f2;
+  border: 0;
+  outline: 0;
+}
+input[type="submit"] {
+  background-color: #4caf50;
+  cursor: pointer;
+}
+.message {
+  font-size: 14px;
+  color: #b3b3b3;
+  margin-top: 15px;
+}
+.message a {
+  text-decoration: none;
+  color: #4caf50;
+}
+.pass {
+  display: inline-block;
+  margin-top: 10px;
+  font-size: 14px;
+  color: #b3b3b3;
+  text-decoration: none;
+}
